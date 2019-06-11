@@ -34,9 +34,9 @@
 angular.module("myApp")
 .controller("loginController1", function ($scope, $http) {
     $scope.submit = function(){
-        var username = uname1.value;
-        var password = pword1.value;
+        var username = uname.value;
         console.log(username);
+        var password = password.value;
         console.log(password);
         $http({
                         // method: 'GET',
